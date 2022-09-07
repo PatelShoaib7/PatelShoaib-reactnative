@@ -1,20 +1,11 @@
 {
   "todos": [
     {
-      "id": 1,
-      "title": "delectus aut autem",
-      "completed": false,
-      "CretedAt": "2022-09-04T14:23:37.812Z",
-      "RemindAt": "2022-09-04T14:23:37.812Z",
-      "status": false
-    },
-    {
-      "id": 2,
-      "title": "quis ut nam facilis et officia qui",
-      "completed": false,
-      "CretedAt": "2022-09-04T14:23:37.812Z",
-      "RemindAt": "2022-09-04T14:23:37.812Z",
-      "status": false
+      "title": "shoaib patel",
+      "CretedAt": "2022-09-07T10:35:27.327Z",
+      "RemindAt": "2022-09-07T10:35:27.327Z",
+      "status": false,
+      "id": 1
     },
     {
       "id": 3,
@@ -30,18 +21,19 @@
       "completed": true,
       "CretedAt": "2022-09-04T14:23:37.812Z",
       "RemindAt": "2022-09-04T14:23:37.812Z",
-      "status": false
+      "status": true
     },
     {
       "id": 5,
-      "title": "laboriosam mollitia et enim quasi adipisci quia pro vident illum",
+      "title": "laboriosam mollitia et enim",
       "completed": false,
       "CretedAt": "2022-09-04T14:23:37.812Z",
-      "RemindAt": "2022-09-04T14:23:37.812Z"
+      "RemindAt": "2022-09-04T14:23:37.812Z",
+      "status": true
     },
     {
       "id": 6,
-      "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+      "title": "qui ullam ratione quibusdam voluptatem",
       "completed": false,
       "CretedAt": "2022-09-04T14:23:37.812Z",
       "RemindAt": "2022-09-04T14:23:37.812Z",
@@ -52,7 +44,8 @@
       "title": "illo expedita consequatur quia in",
       "completed": false,
       "CretedAt": "2022-09-04T14:23:37.812Z",
-      "RemindAt": "2022-09-04T14:23:37.812Z"
+      "RemindAt": "2022-09-04T14:23:37.812Z",
+      "status": true
     },
     {
       "id": 8,
@@ -66,21 +59,24 @@
       "title": "molestiae perspiciatis ipsa",
       "completed": false,
       "CretedAt": "2022-09-04T14:23:37.812Z",
-      "RemindAt": "2022-09-04T14:23:37.812Z"
+      "RemindAt": "2022-09-04T14:23:37.812Z",
+      "status": true
     },
     {
       "id": 10,
       "title": "illo est ratione doloremque quia maiores aut",
       "completed": true,
       "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
+      "RemindAt": "2022-09-04T14:23:37.813Z",
+      "status": true
     },
     {
       "id": 11,
       "title": "vero rerum temporibus dolor",
       "completed": true,
       "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
+      "RemindAt": "2022-09-04T14:23:37.813Z",
+      "status": true
     },
     {
       "id": 12,
@@ -94,7 +90,8 @@
       "title": "et doloremque nulla",
       "completed": false,
       "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
+      "RemindAt": "2022-09-04T14:23:37.813Z",
+      "status": false
     },
     {
       "id": 14,
@@ -111,13 +108,6 @@
       "RemindAt": "2022-09-04T14:23:37.813Z"
     },
     {
-      "id": 16,
-      "title": "accusamus eos facilis sint et aut voluptatem",
-      "completed": true,
-      "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
-    },
-    {
       "id": 17,
       "title": "quo laboriosam deleniti aut qui",
       "completed": true,
@@ -129,7 +119,8 @@
       "title": "dolorum est consequatur ea mollitia in culpa",
       "completed": false,
       "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
+      "RemindAt": "2022-09-04T14:23:37.813Z",
+      "status": true
     },
     {
       "id": 19,
@@ -550,7 +541,8 @@
       "title": "reiciendis est magnam amet nemo iste recusandae impedit quaerat",
       "completed": false,
       "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
+      "RemindAt": "2022-09-04T14:23:37.813Z",
+      "status": false
     },
     {
       "id": 79,
@@ -1382,20 +1374,6 @@
       "id": 198,
       "title": "quis eius est sint explicabo",
       "completed": true,
-      "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
-    },
-    {
-      "id": 199,
-      "title": "numquam repellendus a magnam",
-      "completed": true,
-      "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
-    },
-    {
-      "id": 200,
-      "title": "ipsam aperiam voluptates qui",
-      "completed": false,
       "CretedAt": "2022-09-04T14:23:37.813Z",
       "RemindAt": "2022-09-04T14:23:37.813Z"
     }

@@ -10,14 +10,14 @@ import {Home} from "./Components/Home"
 function App() {
   return (
     <div className="App">
-      <Navbar />
+
       <Routes>
-        <Route
+        <Route margin="3rem"
                  path="/"
                  element={<RequiredAuth> <Home />  </RequiredAuth>}>
          </Route>
-        <Route path="/todo/:id" element={<TodoId />}></Route>
-        <Route path="/todo/:id/edit" element={<EditTodo />}></Route>
+        <Route path="/todo/:id" element={<RequiredAuth>  <TodoId /></RequiredAuth>}></Route>
+        <Route path="/todo/:id/edit" element={<RequiredAuth><EditTodo /></RequiredAuth> }></Route>
         <Route path="/login" element={<Login />}></Route>
       </Routes>
     </div>

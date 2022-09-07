@@ -4,6 +4,8 @@ import { useDispatch } from "react-redux";
 import { addTodoApi, getTodosApi } from "../Store/Todos/todos.action";
 import { useEffect } from "react";
 import {TodoList} from "./TodoList";
+import { Box, Button, Input, Spacer } from "@chakra-ui/react";
+import { Navbar } from "./Navbar";
 
 export const Home = () => {
   const [tasks, setTasks] = useState("");
@@ -19,6 +21,8 @@ export const Home = () => {
     };
     // console.log("obj:", obj);
     addTodoApi(obj, dispatch);
+    setTasks("")
+    alert("task Addeed Sucessfullly")
   };
 
   useEffect(() => {
@@ -26,19 +30,22 @@ export const Home = () => {
   }, [dispatch]);
   return (
     <div>
-      <input
-        type="text"
-        placeholder="add something..."
+      <Navbar />
+     
+     <Input 
+         w="xs"
+        mr="10px"
+        placeholder="add more tasks ..."
         value={tasks}
-        onChange={(e) => {
-          setTasks(e.target.value);
-          //   setTasks("");
-        }}
+        onChange={(e) => { setTasks(e.target.value); }}
       />
-      <button onClick={handleAddTodo}>ADD</button>
+    
+      <Button mb="5px" onClick={handleAddTodo}>ADD</Button>
       <div>
         <TodoList></TodoList>
       </div>
+    
+     
     </div>
   );
 };

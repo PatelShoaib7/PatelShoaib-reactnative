@@ -16,29 +16,33 @@ const initialState = {
 export const authReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case LOGIN_LOADING: {
-      return { ...state, loading: true, error: false };
+      return {     ...state, 
+                loading: true, 
+                error: false };
     }
-
     case LOGIN_SUCCESS: {
       //console.log("Success", payload);
       localStorage.setItem("token", payload);
-      return { ...state, loading: false, isAuth: true, error: false };
+      return { ...state, 
+                loading: false, 
+                isAuth: true,
+                error: false };
     }
-
     case LOGIN_ERROR: {
       //console.log("ERROR");
-      return { ...state, loading: false, error: true };
+      return { ...state, 
+                loading: false, 
+                error: true };
     }
-
     case LOGOUT: {
       localStorage.removeItem("token");
       return {
-        ...state,
-        isAuth: false,
-        token: "",
+             ...state,
+                isAuth: 
+                false,
+                token: "",
       };
     }
-
     default: {
       return state;
     }
