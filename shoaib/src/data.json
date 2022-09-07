@@ -4,7 +4,7 @@
       "title": "shoaib patel",
       "CretedAt": "2022-09-07T10:35:27.327Z",
       "RemindAt": "2022-09-07T10:35:27.327Z",
-      "status": false,
+      "status": true,
       "id": 1
     },
     {
@@ -96,13 +96,6 @@
     {
       "id": 14,
       "title": "repellendus sunt dolores architecto voluptatum",
-      "completed": true,
-      "CretedAt": "2022-09-04T14:23:37.813Z",
-      "RemindAt": "2022-09-04T14:23:37.813Z"
-    },
-    {
-      "id": 15,
-      "title": "ab voluptatum amet voluptas",
       "completed": true,
       "CretedAt": "2022-09-04T14:23:37.813Z",
       "RemindAt": "2022-09-04T14:23:37.813Z"
