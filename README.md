@@ -20,4 +20,4 @@
 <img src="https://i.ibb.co/0nVXxwb/Screenshot-336.png" alt="Screenshot-336" border="0">
 </a>
 <h2>Edit Page</h2>
-   <img src="https://i.ibb.co/2nVLXQC/Screenshot-338.png" alt="Screenshot-338" border="0">
+  <img src="https://i.ibb.co/2nVLXQC/Screenshot-338.png" alt="Screenshot-338" border="0">
