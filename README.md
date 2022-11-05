@@ -2,7 +2,7 @@
 # 😍_Toodoo_😍Appp😍!
 <h1>TechTools Used : Html Css JavaScript React Redux Chakra-Ui Rest-Api's </h1>
 <h1>To See  All  Exciting Features  Of App Scroll Below  </h1>
-<h2></h2>
+
 <img src="https://i.ibb.co/2k0w1dT/Screenshot-337.png" alt="Screenshot-337" border="0"></a>
 <h2 >Full Task  Description CretionDate/ Remider Date  </h2><a href="">
  <img src="https://i.ibb.co/hXLXx3k/Screenshot-341.png" alt="Screenshot-341" border="0">
