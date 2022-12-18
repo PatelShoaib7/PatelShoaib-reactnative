@@ -1,16 +1,5 @@
 import {
-  ADD_TODOS,
-  DELETE_LOADING,
-  EDIT_LOADING,
-  EDIT_TODO,
-  GET_TODOS,
-  GET_TODO_BY_ID,
-  REMOVE_TODO,
-  TODO_ERROR,
-  TODO_LOADING,
-  TOGGLE_TODO,
-  UPDATING_TODO,
-} 
+  ADD_TODOS,DELETE_LOADING, EDIT_LOADING, EDIT_TODO, GET_TODOS, GET_TODO_BY_ID,  REMOVE_TODO,  TODO_ERROR,  TODO_LOADING, TOGGLE_TODO, UPDATING_TODO,} 
 from "./todos.actionTypes";
 
 const initialState = {
@@ -21,13 +10,10 @@ const initialState = {
   deletLoading:false,
   editLoading:false,
   updateTodoLoading:false
-
-
 };
 
 export const todosReducer = (state = initialState, { type, payload }) => {
   switch (type) {
-    
     case ADD_TODOS: {
       return { ...state, todos: [...state.todos, payload] };
     }
@@ -35,31 +21,24 @@ export const todosReducer = (state = initialState, { type, payload }) => {
       return { 
                  ...state ,
                  loading:true,
-                 error:false
-                
+                 error:false    
       }
     }
     case TODO_ERROR : {
       return { 
                  ...state ,
                  loading:false,
-                 error:true
-                
+                 error:true   
       }
     }
-
     case GET_TODOS: {
       //console.log(payload);
       return { ...state,
                todos: payload,
                loading:false,
-               error:false
-              
-          
+               error:false   
               };
-
     }
-
     case GET_TODO_BY_ID: {
       return { ...state, todoId: payload };
     }
@@ -71,16 +50,13 @@ export const todosReducer = (state = initialState, { type, payload }) => {
      }
     case REMOVE_TODO: {
       let newTodo = state.todos.filter((todo) => todo.id !== payload);
-     // console.log(newTodo);
       return { ...state, todos: [...newTodo],  deletLoading:false };
     }
-
     case UPDATING_TODO :{
       return {
         updateTodoLoading:true
       }
     }
-
     case TOGGLE_TODO: {
       let newTodo = state.todos.map((el) => {
         if (el.id === payload.id) {
@@ -105,9 +81,7 @@ export const todosReducer = (state = initialState, { type, payload }) => {
          editLoading:false
         };
     }
-
     default: {
       return state;
-    }
-  }
+    } }
 };
