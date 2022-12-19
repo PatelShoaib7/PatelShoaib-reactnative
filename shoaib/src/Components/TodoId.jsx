@@ -31,58 +31,29 @@ export const TodoId = () => {
 
   return (
     <div>
-      {/* <div> ID: {id}</div>
-      <div style={{fontSize:'20px'}}>title: {todos.title}</div>
-      <div> status: {todos.status ? "Completed" : "Incompleted"}</div>
-      <div>Creation date {todos.CretedAt}</div>
-      */}
       <div>
-            <VStack
-                 
-                  spacing={4}
-                  align='stretch'
-                  mb="30px"
-                >
-                  <Box h='10px' >
-                   ID: {id}
-                  </Box>
-                  <Box h='10px' fontSize='20px' >
-                   title: {todoId.title}
-                  </Box>
-                  <Box h='10px' >
-                      status: {todoId.status ? "Completed" : "Incompleted"}
-                  </Box>
-                  <Box h='10px' >
-                    Creation date {todoId.CretedAt}
+            <VStack  spacing={4}  align='stretch'   mb="30px"   >
+                  <Box h='10px' >  ID: {id}
+                      </Box>
+                      <Box h='10px' fontSize='20px' >  title: {todoId.title}
+                      </Box>
+                      <Box h='10px' >      status: {todoId.status ? "Completed" : "Incompleted"}
+                      </Box>
+                      <Box h='10px' >   Creation date {todoId.CretedAt}
                   </Box>
             </VStack>
-            <VStack
-                 spacing={20}
-                 align='stretch'
-                 mb="30px"
-               >
+            <VStack  spacing={20}  align='stretch'   mb="30px"    >
                  <Box h='10px' >
-                 <Input
-                    w="sm"
-                    type="text"
-                    placeholder="Enter task title here"
-                    onChange={(e) => setUpdatedTitle(e.target.value)}
-                  />
-                 
-                 <Box  p="'10px" >
-
-                 </Box>
-                 <Button p="'10px" colorScheme={'green'} onClick={handleEditTodo}>Update Todo</Button>
-                 </Box>
-                 <Box h='10px' fontSize='20px' >
-                 <Button colorScheme={'teal'} leftIcon={<ArrowBackIcon />}  onClick={()=> navigate("/")}>Go To Home</Button>
-                 </Box>
+                       <Input  w="sm"   type="text"   placeholder="Enter task title here"
+                          onChange={(e) => setUpdatedTitle(e.target.value)}  />
+                   <Box  p="'10px" >
+                   </Box>
+                       <Button p="'10px" colorScheme={'green'} onClick={handleEditTodo}>Update Todo</Button>
+                   </Box>
+                       <Box h='10px' fontSize='20px' >
+                       <Button colorScheme={'teal'} leftIcon={<ArrowBackIcon />}  onClick={()=> navigate("/")}>Go To Home</Button>
+                  </Box>
            </VStack>
-            
-
-           
-           
-          
       </div>
     </div>
   );
